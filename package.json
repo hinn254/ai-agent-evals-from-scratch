@@ -1,0 +1,29 @@
+{
+  "name": "first-simple-eval",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/run.ts",
+    "eval": "tsx src/evals/tool-selection.ts",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.129",
+    "ai": "^6.0.308",
+    "dotenv": "^18.0.8",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "oxfmt": "^0.73.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
