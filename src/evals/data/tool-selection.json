@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "How much is an iPhone 15?",
+    "expectedTools": ["checkInventory"],
+    "category": "golden"
+  },
+  {
+    "prompt": "Do you have Samsung Galaxy S24 phones?",
+    "expectedTools": ["checkInventory"],
+    "category": "golden"
+  },
+  {
+    "prompt": "Is the Google Pixel 8 available?",
+    "expectedTools": ["checkInventory"],
+    "category": "golden"
+  },
+  {
+    "prompt": "Do you have 3 iPhone 15 phones, and how much will they cost?",
+    "expectedTools": ["checkInventory"],
+    "category": "golden"
+  },
+  {
+    "prompt": "Can you check the price of a Samsung Galaxy S24?",
+    "expectedTools": ["checkInventory"],
+    "category": "secondary"
+  },
+  {
+    "prompt": "Are there any Google Pixel 8 phones left?",
+    "expectedTools": ["checkInventory"],
+    "category": "secondary"
+  },
+  {
+    "prompt": "I want to buy two iPhone 15 phones. Are they available?",
+    "expectedTools": ["checkInventory"],
+    "category": "secondary"
+  },
+  {
+    "prompt": "Hello!",
+    "expectedTools": [],
+    "category": "negative"
+  },
+  {
+    "prompt": "Thank you for your help!",
+    "expectedTools": [],
+    "category": "negative"
+  },
+  {
+    "prompt": "What is a smartphone?",
+    "expectedTools": [],
+    "category": "negative"
+  }
+]
