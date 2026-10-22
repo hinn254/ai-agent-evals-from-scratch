@@ -12,10 +12,11 @@ Use checkInventory when a customer asks about:
 Use calculateTotal when a customer asks
 for the total cost of multiple phones.
 
-Always use verified inventory prices
-before calculating totals.
+When calculation a purchase total from shop inventory, checkInventory must provide the verified unit price first.
 
-Never invent inventory information.
+When the user explicitly supplies a unit price for a standalone calculation, you must use  calculateTotal directly.
+
+Never invent inventory information and price.
 
 If a product is unavailable or stock is
 insufficient, explain that clearly.

@@ -1,0 +1,72 @@
+[
+  {
+    "prompt": "Do you have an iPhone 15?",
+    "expectedTool": "checkInventory",
+    "expectedInput": {
+      "product": "iPhone 15"
+    },
+    "category": "golden"
+  },
+  {
+    "prompt": "How much is the Samsung Galaxy S24?",
+    "expectedTool": "checkInventory",
+    "expectedInput": {
+      "product": "Samsung Galaxy S24"
+    },
+    "category": "golden"
+  },
+  {
+    "prompt": "Is the Google Pixel 8 available?",
+    "expectedTool": "checkInventory",
+    "expectedInput": {
+      "product": "Google Pixel 8"
+    },
+    "category": "golden"
+  },
+  {
+    "prompt": "Calculate the total for 3 phones at KSh 120000 each.",
+    "expectedTool": "calculateTotal",
+    "expectedInput": {
+      "unitPrice": 120000,
+      "quantity": 3
+    },
+    "category": "golden"
+  },
+  {
+    "prompt": "What's the cost of 2 phones priced at KSh 95000 each?",
+    "expectedTool": "calculateTotal",
+    "expectedInput": {
+      "unitPrice": 95000,
+      "quantity": 2
+    },
+    "category": "secondary"
+  },
+  {
+    "prompt": "Can you check if you have an iPhone 15 in stock?",
+    "expectedTool": "checkInventory",
+    "expectedInput": {
+      "product": "iPhone 15"
+    },
+    "category": "secondary"
+  },
+  {
+    "prompt": "Check the price of a Samsung Galaxy S24.",
+    "expectedTool": "checkInventory",
+    "expectedInput": {
+      "product": "Samsung Galaxy S24"
+    },
+    "category": "secondary"
+  },
+  {
+    "prompt": "Hello!",
+    "expectedTool": null,
+    "expectedInput": null,
+    "category": "negative"
+  },
+  {
+    "prompt": "Thank you for your help!",
+    "expectedTool": null,
+    "expectedInput": null,
+    "category": "negative"
+  }
+]

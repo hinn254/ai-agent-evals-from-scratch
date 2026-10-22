@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "tsx src/run.ts",
     "eval": "tsx src/evals/tool-selection.ts",
+    "eval:arguments": "tsx src/evals/tool-arguments.ts",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
     "typecheck": "tsc --noEmit"
